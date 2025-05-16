@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fafafa;
+    color: #333;
+  }
+  
+  header {
+    background: #14963b;
+    color: white;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .intro {
+    text-align: center;
+    padding: 40px 20px;
+    background: #ffffff;
+  }
+  
+  .catalogo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 20px;
+  }
+  
+  .produto {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 220px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.2s;
+  }
+  
+  .produto:hover {
+    transform: scale(1.05);
+  }
+  
+  .produto img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .produto span {
+    display: block;
+    margin-top: 10px;
+    color: #27ae60;
+    font-weight: bold;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
